@@ -19,7 +19,9 @@ npx create-react-app Guac-A-Mole
 
 ## Folder Structure
 
-After creation, your project should look like this:
+After creation, the project look like this :
+
+* Added my code inside src/
 
 ```
 GUAC-A-MOLE/
@@ -52,14 +54,12 @@ GUAC-A-MOLE/
 cd Guac-A-Mole
 ```
 
-Inside the newly created project, you can run some built-in commands:
-
+Inside the newly created project, run some built-in commands:
 
 ```sh
 npm install
+npm start
 ```
-
-### `npm start`
 
 Runs the app in development mode.<br>
 Open [http://localhost:3000/homePage](http://localhost:3000/homePage) to view it in the browser.
