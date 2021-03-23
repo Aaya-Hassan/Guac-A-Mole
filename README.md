@@ -1,12 +1,9 @@
 # Guac-A-Mole
+Guac-A-Mole is the guacamole version of the Whack a Mole game.
 
-## Quick Overview
+The user will play a game of whack-a-mole, where the they have to click on every avocado that appears from one of the holes.
 
-```sh
-npx create-react-app Guac-A-Mole
-cd Guac-A-Mole
-npm start
-```
+Every avocado they hit will turn into guacamole and points will be added to the user. Every round has limited time and the avocados should appear randomly from the holes.
 
 ## Installation
 ```sh
@@ -15,6 +12,10 @@ npm install react-router-dom --save
 npm install styled-components
 ```
 
+## To create the app
+```sh
+npx create-react-app Guac-A-Mole
+```
 
 ## Folder Structure
 
@@ -46,7 +47,17 @@ GUAC-A-MOLE/
     style.js
 ```
 
+## To run the app
+```sh
+cd Guac-A-Mole
+```
+
 Inside the newly created project, you can run some built-in commands:
+
+
+```sh
+npm install
+```
 
 ### `npm start`
 
